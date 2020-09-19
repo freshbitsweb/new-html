@@ -12,22 +12,24 @@
     </script>
 
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@FreshbitsWeb">
     <meta name="twitter:creator" content="@gauravmakhecha">
     <meta property="og:url" content="https://www.freshbits.in/">
-    <meta property="og:title" content="Freshbits Web Solutions | Web apps | Backend systems | Laravel | Vue.js">
-    <meta property="og:description" content="Freshbits Web Solutions offers web developement services to the companies and individuals with great ideas and world-class vision. We specialize in Laravel and other PHP based backend development services.">
+    <meta property="og:title" content="Freshbits Web Solutions | Web apps | Backend systems | Laravel | Vuejs">
+    <meta property="og:description" content="Freshbits Web Solutions offers web development services to the companies and individuals with great ideas and world-class vision. We specialize in Laravel and other PHP based backend development services.">
     <meta property="og:image" content="https://www.freshbits.in/images/meta/freshbits-web-solutions-web-apps-backend-systems-laravel-vue-js.png">
+    <meta property="og:site_name" content="Freshbits"/>
+    <meta property="fb:app_id" content="freshbitsweb"/>
 
     <meta name="title" content="Freshbits Web Solutions | Web Development Services">
-    <meta name="description" content="Freshbits Web Solutions offers web developement services to the companies and individuals with great ideas and world-class vision. We specialize in Laravel and other PHP based backend development services.">
+    <meta name="description" content="Freshbits Web Solutions offers web development services to the companies and individuals with great ideas and world-class vision. We specialize in Laravel and other PHP based backend development services.">
     <meta name="keywords" content="Website Development, Website Customization, Performance Optimization, Backend Development, PHP Development, Laravel Development" />
 
-    <title>Freshbits Web Solutions | Web apps | Backend systems | Laravel | Vue.js</title>
+    <title>Freshbits Web Solutions | Web apps | Backend systems | Laravel | Vuejs</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
@@ -107,21 +109,14 @@
         <div class="svg-box-res"></div>
     </div>
 
-    <nav class="navbar navbar-default navbar-fixed-top" id="nav-main">
+    <nav class="navbar navbar-default navbar-light navbar-expand-lg fixed-top" id="nav-main">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed x" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar i1"></span>
-                    <span class="icon-bar i2"></span>
-                    <span class="icon-bar i3"></span>
-                </button>
+            <a class="navbar-brand text-xs-center" href="/" data-aos="fade-In"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <a class="navbar-brand text-center" href="/" data-aos="fade-In"></a>
-            </div>
-
-            <div id="navbar" class="navbar-collapse collapse">
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
                         <a href="#about" class="page-scroll">About</a>
@@ -1565,194 +1560,194 @@
                     </div>
                 </div>
 
-                <div class="portfolio-tabs">
-                    <div class="portfolio-inner">
-                        <div class="port-tab-left animated" data-animation="fadeInUp" data-animation-delay="700">
-                            <ul class="nav nav-tabs tabs-left sideways">
-                                <li class="active"><a href="#backend-tab" data-toggle="tab">Back end</a></li>
-                                <li><a href="#frontend-tab" data-toggle="tab">Front end</a></li>
-                                <li><a href="#integration-tab" data-toggle="tab">Integration</a></li>
-                                <li><a href="#server-tab" data-toggle="tab">Server</a></li>
-                                <li><a href="#communication-tab" data-toggle="tab">Communication</a></li>
-                            </ul>
+                <div class="row">
+                    <div class="col-3 mr-4">
+                        <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" data-toggle="pill" href="#backend-tab" role="tab">Back end</a>
+                            <a class="nav-link" data-toggle="pill" href="#frontend-tab" role="tab">Front end</a>
+                            <a class="nav-link" data-toggle="pill" href="#integration-tab" role="tab">Integration</a>
+                            <a class="nav-link" data-toggle="pill" href="#server-tab" role="tab">Server</a>
+                            <a class="nav-link" data-toggle="pill" href="#communication-tab" role="tab">Communication</a>
                         </div>
+                    </div>
 
-                        <div class="port-tab-right animated" data-animation="fadeInUp" data-animation-delay="700">
-                            <div class="tab-content">
-                                <div class="tab-pane active fade in" id="backend-tab">
-                                    <div class="tab-inner">
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/laravel-development.svg" alt="Laravel Development" class="logo-img">
-                                            <span class="tab-text">Laravel Development</span>
-                                        </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="backend-tab">
+                                <div class="tab-inner">
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/laravel-development.svg" alt="Laravel Development" class="logo-img">
+                                        <span class="tab-text">Laravel Development</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/php-development.svg" alt="PHP Development" class="logo-img">
-                                            <span class="tab-text">PHP Development</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/php-development.svg" alt="PHP Development" class="logo-img">
+                                        <span class="tab-text">PHP Development</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/schema-design.svg" alt="Schema Design" class="logo-img">
-                                            <span class="tab-text">Schema Design</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/schema-design.svg" alt="Schema Design" class="logo-img">
+                                        <span class="tab-text">Schema Design</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/test-driven-development.svg" alt="Test Driven Development" class="logo-img">
-                                            <span class="tab-text">Test Driven Development</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/test-driven-development.svg" alt="Test Driven Development"
+                                            class="logo-img">
+                                        <span class="tab-text">Test Driven Development</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/api-development.svg" alt="API Development" class="logo-img">
-                                            <span class="tab-text">API Development</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/api-development.svg" alt="API Development" class="logo-img">
+                                        <span class="tab-text">API Development</span>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="tab-pane fade" id="frontend-tab">
-                                    <div class="tab-inner">
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/vue-js.svg" alt="Vue.js" class="logo-img">
-                                            <span class="tab-text">Vue.js</span>
-                                        </div>
+                            <div class="tab-pane fade" id="frontend-tab">
+                                <div class="tab-inner">
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/vue-js.svg" alt="Vue.js" class="logo-img">
+                                        <span class="tab-text">Vue.js</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/bootstrap.svg" alt="Bootstrap" class="logo-img">
-                                            <span class="tab-text">Bootstrap</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/bootstrap.svg" alt="Bootstrap" class="logo-img">
+                                        <span class="tab-text">Bootstrap</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/laravel-mix.svg" alt="Laravel Mix" class="logo-img">
-                                            <span class="tab-text">Laravel Mix</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/laravel-mix.svg" alt="Laravel Mix" class="logo-img">
+                                        <span class="tab-text">Laravel Mix</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/npm.svg" alt="NPM" class="logo-img">
-                                            <span class="tab-text">NPM</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/npm.svg" alt="NPM" class="logo-img">
+                                        <span class="tab-text">NPM</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/webpack.svg" alt="Webpack" class="logo-img">
-                                            <span class="tab-text">Webpack</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/webpack.svg" alt="Webpack" class="logo-img">
+                                        <span class="tab-text">Webpack</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/progressive-web-apps.svg" alt="Progressive Web Apps" class="logo-img">
-                                            <span class="tab-text">Progressive Web Apps</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/progressive-web-apps.svg" alt="Progressive Web Apps" class="logo-img">
+                                        <span class="tab-text">Progressive Web Apps</span>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="tab-pane fade" id="integration-tab">
-                                    <div class="tab-inner">
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/stripe.svg" alt="Stripe" class="logo-img">
-                                            <span class="tab-text">Stripe</span>
-                                        </div>
+                            <div class="tab-pane fade" id="integration-tab">
+                                <div class="tab-inner">
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/stripe.svg" alt="Stripe" class="logo-img">
+                                        <span class="tab-text">Stripe</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/algolia.svg" alt="Algolia" class="logo-img">
-                                            <span class="tab-text">Algolia</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/algolia.svg" alt="Algolia" class="logo-img">
+                                        <span class="tab-text">Algolia</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/mailchimp.svg" alt="Mailchimp" class="logo-img">
-                                            <span class="tab-text">Mailchimp</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/mailchimp.svg" alt="Mailchimp" class="logo-img">
+                                        <span class="tab-text">Mailchimp</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/laravel-nova.svg" alt="Laravel Nova" class="logo-img">
-                                            <span class="tab-text">Laravel Nova</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/laravel-nova.svg" alt="Laravel Nova" class="logo-img">
+                                        <span class="tab-text">Laravel Nova</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/laravel-socialite.svg" alt="Laravel Socialite" class="logo-img">
-                                            <span class="tab-text">Laravel Socialite</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/laravel-socialite.svg" alt="Laravel Socialite" class="logo-img">
+                                        <span class="tab-text">Laravel Socialite</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/laravel-passport.svg" alt="Laravel Passport" class="logo-img">
-                                            <span class="tab-text">Laravel Passport</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/laravel-passport.svg" alt="Laravel Passport" class="logo-img">
+                                        <span class="tab-text">Laravel Passport</span>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="tab-pane fade" id="server-tab">
-                                    <div class="tab-inner">
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/server-setup.svg" alt="Server Setup" class="logo-img">
-                                            <span class="tab-text">Server Setup</span>
-                                        </div>
+                            <div class="tab-pane fade" id="server-tab">
+                                <div class="tab-inner">
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/server-setup.svg" alt="Server Setup" class="logo-img">
+                                        <span class="tab-text">Server Setup</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/digital-ocean.svg" alt="Digital Ocean" class="logo-img">
-                                            <span class="tab-text">Digital Ocean</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/digital-ocean.svg" alt="Digital Ocean" class="logo-img">
+                                        <span class="tab-text">Digital Ocean</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/laravel-forge.svg" alt="Laravel Forge" class="logo-img">
-                                            <span class="tab-text">Laravel Forge</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/laravel-forge.svg" alt="Laravel Forge" class="logo-img">
+                                        <span class="tab-text">Laravel Forge</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/amazon-web-services.svg" alt="Amazon Web Services" class="logo-img">
-                                            <span class="tab-text">AWS</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/amazon-web-services.svg" alt="Amazon Web Services" class="logo-img">
+                                        <span class="tab-text">AWS</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/nginx.svg" alt="Nginx" class="logo-img">
-                                            <span class="tab-text">Nginx</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/nginx.svg" alt="Nginx" class="logo-img">
+                                        <span class="tab-text">Nginx</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/docker.svg" alt="Docker" class="logo-img">
-                                            <span class="tab-text">Docker</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/docker.svg" alt="Docker" class="logo-img">
+                                        <span class="tab-text">Docker</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/cloudflare.svg" alt="Cloudflare" class="logo-img">
-                                            <span class="tab-text">Cloudflare</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/cloudflare.svg" alt="Cloudflare" class="logo-img">
+                                        <span class="tab-text">Cloudflare</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/linux.svg" alt="Linux" class="logo-img">
-                                            <span class="tab-text">Linux</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/linux.svg" alt="Linux" class="logo-img">
+                                        <span class="tab-text">Linux</span>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="tab-pane fade" id="communication-tab">
-                                    <div class="tab-inner">
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/google-drive.svg" alt="Google Drive" class="logo-img">
-                                            <span class="tab-text">Google Drive</span>
-                                        </div>
+                            <div class="tab-pane fade" id="communication-tab">
+                                <div class="tab-inner">
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/google-drive.svg" alt="Google Drive" class="logo-img">
+                                        <span class="tab-text">Google Drive</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/slack.svg" alt="Slack" class="logo-img">
-                                            <span class="tab-text">Slack</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/slack.svg" alt="Slack" class="logo-img">
+                                        <span class="tab-text">Slack</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/trello.svg" alt="Trello" class="logo-img">
-                                            <span class="tab-text">Trello</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/trello.svg" alt="Trello" class="logo-img">
+                                        <span class="tab-text">Trello</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/plain-paper.svg" alt="Plain Paper (schema design)" class="logo-img">
-                                            <span class="tab-text">Plain Paper (schema design)</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/plain-paper.svg" alt="Plain Paper (schema design)" class="logo-img">
+                                        <span class="tab-text">Plain Paper (schema design)</span>
+                                    </div>
 
-                                        <div class="tab-detail">
-                                            <img src="images/technology-stack/skype.svg" alt="Skype" class="logo-img">
-                                            <span class="tab-text">Skype</span>
-                                        </div>
+                                    <div class="tab-detail">
+                                        <img src="images/technology-stack/skype.svg" alt="Skype" class="logo-img">
+                                        <span class="tab-text">Skype</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
+
+                <div class="clearfix"></div>
             </section>
         </div>
     </div>
@@ -1762,7 +1757,7 @@
             <div class="container">
                 <div class="heading-bg animated" data-animation="fadeInUp" data-animation-delay="200">
                     <div class="heading-img">
-                        <img src="images/logo-icon.png">
+                        <img src="images/logo-icon.png" alt="Freshbits Logo">
                         Our code powers some of the very powerful web apps that help businesses across the globe.
                     </div>
                 </div>
@@ -1844,7 +1839,7 @@
 
                                     <div class="author">
                                         <div class="author-left">
-                                            <img src="images/quote.png">
+                                            <img src="images/quote.png" alt="quote">
                                         </div>
 
                                         <div class="author-right">
@@ -1867,7 +1862,7 @@
 
                                     <div class="author">
                                         <div class="author-left">
-                                            <img src="images/quote.png">
+                                            <img src="images/quote.png" alt="quote">
                                         </div>
 
                                         <div class="author-right">
@@ -1893,7 +1888,7 @@
                                     </span>
                                     <div class="author">
                                         <div class="author-left">
-                                            <img src="images/quote.png">
+                                            <img src="images/quote.png" alt="quote">
                                         </div>
 
                                         <div class="author-right">
@@ -1920,7 +1915,7 @@
 
                                     <div class="author">
                                         <div class="author-left">
-                                            <img src="images/quote.png">
+                                            <img src="images/quote.png" alt="quote">
                                         </div>
 
                                         <div class="author-right">
@@ -2287,7 +2282,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        <img src="images/close.png">
+                        <img src="images/close.png" alt="close">
                     </button>
                 </div>
 
@@ -2363,8 +2358,11 @@
     </div>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <!-- Menu link click slide -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
